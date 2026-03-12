@@ -1,17 +1,21 @@
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 
+header {
+     background-color: #282828;
+    color: whitesmoke;
+}
+
 .logo {
-  color: whitesmoke;
+  
   font-weight: 700;
   font-size: 18px;
 }
 .menu {
-  width: 25px;
+  margin-left: auto;
 }
 .icon {
   width: 25px;
@@ -24,15 +28,65 @@ h1 {
 
 .caption {
   margin: 0px 25px;
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
 }
 .btn {
-  background-color: red;
+  background-color: #cd6858;
+  border: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  font-weight: 700;
+  margin: auto;
+
+  
 }
 ul {
-  background-color: #282828;
-  padding: 25px;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding: 25px;
+    gap: 10px
+  }
+
+  .item{
+    position: relative;
+    
+  }
+
+
+.banner{
+  background-color: #cd6858;
+  padding: 10px;
+  color: whitesmoke;
+  display: inline;
+  position: absolute;
+  top:0px;
+  left:0px;
+  margin: 0;;
+
 }
+
+.chat-box{
+  background-color:  #dda15e;
+  width:40px;
+  height: 40px;
+  border-radius:30px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin:5px;
+  box-shadow:1px 1px 5px #999;
+}
+
+.message-icon{
+  width:50%;
+  margin:auto;
+  
+
+
+}
+
