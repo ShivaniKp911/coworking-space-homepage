@@ -1,4 +1,38 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 18px;
+}
+.menu {
+  width: 25px;
+}
+.icon {
+  width: 25px;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 10px 25px;
+}
+
+.caption {
+  margin: 0px 25px;
+}
+.btn {
+  background-color: red;
+}
+ul {
+  background-color: #282828;
+  padding: 25px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
